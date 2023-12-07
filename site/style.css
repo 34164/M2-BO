@@ -11,6 +11,15 @@ body {
     background-size: cover;
 }
 
+/* .footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(211, 211, 211);
+   color: white;
+   text-align: center;
+}  */
+
 .bg-text{
     border: 10px solid rgb(211, 211, 211);
     background-color: rgb(211, 211, 211);
@@ -19,7 +28,7 @@ body {
 
 .header-logo{
     width: 150px;
-  }
+}
 
 .grid-container {
   margin-top: -10px;
@@ -68,11 +77,6 @@ body {
     display: inline;
   }
 
-  li a:hover {
-    background-color: #ffffff;
-    border-radius: 20px;
-  }
-
   li a {
     display: block;
     color: rgb(0, 0, 0);
@@ -81,21 +85,17 @@ body {
     text-decoration: none;
     font-family: Arial;
   }
+
+  li a:hover {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
   
   .active {
     background-color: #303030;
   }
 
   .informatie{
-    
-  }
 
-  /* .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(211, 211, 211);
-    color: white;
-    text-align: center;
-  }  */
+  }
