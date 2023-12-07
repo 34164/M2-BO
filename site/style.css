@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 body {
     background-color: black;
     background-image: url("./images/background.jpg");
@@ -17,13 +21,30 @@ body {
     width: 150px;
   }
 
-/* .grid-container {
+.grid-container {
   margin-top: -10px;
   margin-left: -10px;
   margin-right: -10px;
   display: grid;
-  grid-template-columns: 180px auto;
-} */
+  grid-template-columns: 180px auto auto;
+} 
+.language{
+  padding-top: 5%;
+  padding-left: 70%;
+  padding-right: 0%;
+  float: right;
+  text-align: right;
+  font-size: 40px;
+}
+
+.navbar{
+  background-color: rgb(211, 211, 211);
+  border-top: 2px solid black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
 
   h1{
     font-family: arial;
@@ -31,6 +52,7 @@ body {
   }
 
   p{
+    margin: 2%;
     font-family: arial;
   }
 
@@ -64,7 +86,11 @@ body {
     background-color: #303030;
   }
 
-  .footer {
+  .informatie{
+    
+  }
+
+  /* .footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -72,4 +98,4 @@ body {
     background-color: rgb(211, 211, 211);
     color: white;
     text-align: center;
-  } 
+  }  */
