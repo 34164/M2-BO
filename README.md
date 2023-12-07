@@ -1,1 +1,7 @@
-# M2-BO
+# BO Website Opdracht NXT
+
+##########################
+
+Autheur:
+-Amir
+-Yassine
