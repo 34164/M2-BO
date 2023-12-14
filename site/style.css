@@ -73,3 +73,41 @@ body {
     color: white;
     text-align: center;
   } 
+
+  
+
+
+
+body{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cover{
+width: 200px;
+height: 300px;
+background: #000000;
+margin-top: 600px;
+display: flex;
+}
+
+.box{
+  margin: 10px;
+  width:800px;
+  height: 500px;
+  box-shadow: -1px 0 10px #00000000;
+  color: white;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+img{
+  width: 300px;
+  height: 200px;
+  display: flex;
+}
