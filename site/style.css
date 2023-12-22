@@ -5,7 +5,9 @@
 body {
     background-color: black;
     height: 100vh;
+    
 }
+
 .mainimage{
   background-color: black;
   background-image: url("./images/background.jpg");
@@ -13,6 +15,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.dark-mode{
+  background-color: blue;
+  color: purple;
 }
 
 .footer {
@@ -154,5 +161,5 @@ img{
     background-color: black;
     align-items: center;
     justify-content: center;
-    
   }
+
