@@ -13,8 +13,8 @@ function toggleDarkMode() {
     footer.classList.toggle('dark-mode', isDarkMode);
 
     if (isDarkMode) {
-        logo.src="./images/logowit.png";
+        logo.src = "./images/logowit.png";
     } else {
-        logo.src="./images/nxtmuseum.com.png";
+        logo.src = "./images/nxtmuseum.com.png";
     }
 }

@@ -22,13 +22,13 @@ header {
     justify-content: space-between;
 }
 
-header section{
+header section {
     display: flex;
     align-items: center;
 }
 
 header img {
-    height: 60px; 
+    height: 60px;
     margin-right: 5px;
     margin-left: 10px;
 }
@@ -66,19 +66,19 @@ nav a:hover {
 
 .dark-mode-button {
     cursor: pointer;
-    color: black; 
+    color: black;
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.5s ease-in-out;
 }
 
 .dark-mode-button.dark-mode {
-    color: white; 
+    color: white;
 }
 
 .footer {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     left: 0;
@@ -88,15 +88,15 @@ nav a:hover {
     text-align: center;
     transition: background-color 0.5s ease-in-out;
     padding: 15px;
-    color: black; 
+    color: black;
 }
 
 .footer a {
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.5s ease-in-out; 
-    color: inherit; 
+    transition: background-color 0.3s, color 0.5s ease-in-out;
+    color: inherit;
 }
 
 .footer a:hover {
@@ -125,9 +125,9 @@ nav a:hover {
 
 .dark-mode .footer {
     background-color: #333;
-    color: white; 
+    color: white;
 }
 
 .dark-mode #logo {
-    content: url('./images/logowit.png'); 
+    content: url('./images/logowit.png');
 }
