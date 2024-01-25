@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    transition: background-color 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, black, white);
+}
+
+header {
+    background-color: #ffffff;
+    padding: 15px;
+    transition: background-color 0.5s ease-in-out;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header section{
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 60px; 
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.taal {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.taal {
+    background-color: #d6d6d6;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #d6d6d6;
+}
+
+.dark-mode-button {
+    cursor: pointer;
+    color: black; 
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.5s ease-in-out;
+}
+
+.dark-mode-button.dark-mode {
+    color: white; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+    padding: 15px;
+    color: black; 
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.5s ease-in-out; 
+    color: inherit; 
+}
+
+.footer a:hover {
+    background-color: #d6d6d6;
+}
+
+.dark-mode body {
+    background: linear-gradient(to bottom right, #1a1a1a, #333);
+}
+
+.dark-mode header {
+    background-color: #111;
+}
+
+.dark-mode nav a {
+    color: #ccc;
+}
+
+.dark-mode nav a:hover {
+    background-color: #444;
+}
+
+.dark-mode .dark-mode-button {
+    color: white;
+}
+
+.dark-mode .footer {
+    background-color: #333;
+    color: white; 
+}
+
+.dark-mode #logo {
+    content: url('./images/logowit.png'); 
+}
