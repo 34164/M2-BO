@@ -18,5 +18,3 @@ function toggleDarkMode() {
         logo.src="./images/nxtmuseum.com.png";
     }
 }
-
-///testfasfasf
