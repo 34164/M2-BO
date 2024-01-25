@@ -19,12 +19,31 @@ header {
     top: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+header section{
+    display: flex;
+    align-items: center;
 }
 
 header img {
     height: 60px; 
     margin-right: 5px;
     margin-left: 10px;
+}
+
+.taal {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.taal {
+    background-color: #d6d6d6;
 }
 
 nav {
@@ -47,19 +66,19 @@ nav a:hover {
 
 .dark-mode-button {
     cursor: pointer;
-    color: black; /* Change text color for light mode */
+    color: black; 
     padding: 10px;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.5s ease-in-out; /* Add color transition */
+    transition: background-color 0.3s, color 0.5s ease-in-out;
 }
 
 .dark-mode-button.dark-mode {
-    color: white; /* Change text color for dark mode */
+    color: white; 
 }
 
 .footer {
     display: flex;
-    justify-content: space-around; /* Align links next to each other */
+    justify-content: space-around; 
     align-items: center;
     position: fixed;
     left: 0;
@@ -68,23 +87,22 @@ nav a:hover {
     background-color: rgb(211, 211, 211);
     text-align: center;
     transition: background-color 0.5s ease-in-out;
-    padding: 15px; /* Increase footer padding */
-    color: black; /* Set default text color */
+    padding: 15px;
+    color: black; 
 }
 
 .footer a {
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.5s ease-in-out; /* Add color transition */
-    color: inherit; /* Inherit text color from parent (.footer) */
+    transition: background-color 0.3s, color 0.5s ease-in-out; 
+    color: inherit; 
 }
 
 .footer a:hover {
     background-color: #d6d6d6;
 }
 
-/* Dark mode styles */
 .dark-mode body {
     background: linear-gradient(to bottom right, #1a1a1a, #333);
 }
@@ -107,9 +125,9 @@ nav a:hover {
 
 .dark-mode .footer {
     background-color: #333;
-    color: white; /* Change text color for dark mode */
+    color: white; 
 }
 
 .dark-mode #logo {
-    content: url('./images/logowit.jpg'); /* Dark mode logo */
+    content: url('./images/logowit.png'); 
 }
