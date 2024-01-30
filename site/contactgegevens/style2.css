@@ -22,21 +22,13 @@ header {
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
 header section{
-=======
-header section {
->>>>>>> 476e3b758907b6ba468b39e4547b887e730f5cd6
     display: flex;
     align-items: center;
 }
 
 header img {
-<<<<<<< HEAD
     height: 60px; 
-=======
-    height: 60px;
->>>>>>> 476e3b758907b6ba468b39e4547b887e730f5cd6
     margin-right: 5px;
     margin-left: 10px;
 }
@@ -74,31 +66,19 @@ nav a:hover {
 
 .dark-mode-button {
     cursor: pointer;
-<<<<<<< HEAD
     color: black; 
-=======
-    color: black;
->>>>>>> 476e3b758907b6ba468b39e4547b887e730f5cd6
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.5s ease-in-out;
 }
 
 .dark-mode-button.dark-mode {
-<<<<<<< HEAD
     color: white; 
-=======
-    color: white;
->>>>>>> 476e3b758907b6ba468b39e4547b887e730f5cd6
 }
 
 .footer {
     display: flex;
-<<<<<<< HEAD
     justify-content: space-around; 
-=======
-    justify-content: space-around;
->>>>>>> 476e3b758907b6ba468b39e4547b887e730f5cd6
     align-items: center;
     position: fixed;
     left: 0;
@@ -108,24 +88,15 @@ nav a:hover {
     text-align: center;
     transition: background-color 0.5s ease-in-out;
     padding: 15px;
-<<<<<<< HEAD
     color: black; 
-=======
-    color: black;
->>>>>>> 476e3b758907b6ba468b39e4547b887e730f5cd6
 }
 
 .footer a {
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-<<<<<<< HEAD
     transition: background-color 0.3s, color 0.5s ease-in-out; 
     color: inherit; 
-=======
-    transition: background-color 0.3s, color 0.5s ease-in-out;
-    color: inherit;
->>>>>>> 476e3b758907b6ba468b39e4547b887e730f5cd6
 }
 
 .footer a:hover {
@@ -154,18 +125,9 @@ nav a:hover {
 
 .dark-mode .footer {
     background-color: #333;
-<<<<<<< HEAD
     color: white; 
 }
 
 .dark-mode #logo {
     content: url('./images/logowit.png'); 
 }
-=======
-    color: white;
-}
-
-.dark-mode #logo {
-    content: url('./images/logowit.png');
-}
->>>>>>> 476e3b758907b6ba468b39e4547b887e730f5cd6
